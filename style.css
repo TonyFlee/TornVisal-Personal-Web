@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+  }
+  
+  body {
+    background: #081b29;
+    margin: 0;
+  }
+  
+  /*/---------\
+          header
+      *\---------/*/
+  header {
+    background: transparent;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: #fff;
+    padding: 35px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+  }
+  
+  /*/---------\
+          navbar
+      *\---------/*/
+  .navbar a {
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+    margin: 25px;
+    background: fixed;
+  }
+  
+  nav a:hover,
+  nav a.active {
+    color: #0ae2ff;
+    text-decoration: none;
+  }
+  
+  /*/---------\
+         section
+      *\---------/*/
+  section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  /*/---------\
+          home
+      *\---------/*/
+  .home h1 {
+    position: relative;
+    color: #ffffff;
+    font-size: 40px;
+    padding: 0 10%;
+    line-height: 1.2;
+    margin: 20px 0 20px;
+  
+  }
+  
+  .home h3 {
+    display: inline-flex;
+    position: relative;
+    color: #ffffff;
+    font-size: 80px;
+    padding: 0 10%;
+    line-height: 1.2;
+  }
+  
+  .home h3 span {
+    color: #0ae2ff;
+  }
+  
+  .home h4 {
+    color: #ffffff;
+    font-size: 40px;
+    padding: 0 10%;
+  }
+  
+  /*/---------\
+          about
+      *\---------/*/
+  .about h1 {
+    color: #0ae2ff;
+    font-size: 60px;
+    padding: 0 10%;
+  }
+  
+  .about p {
+    color: #ffffff;
+    font-size: 18px;
+    padding: 0 10%;
+    margin: 20px 0 40px;
+    max-width: 1200px;
+  }
+  
+  .about-content .btn-box {
+    display: flex;
+    justify-content: space-between;
+    width: 745px;
+    height: 50px;
+    padding: 0 10%;
+  }
+  
+  /*/---------\
+         social
+      *\---------/*/
+  .social h1 {
+    color: #0ae2ff;
+    font-size: 60px;
+    padding: 0 10%;
+  }
+  
+  /*/---------\
+         btn-box
+      *\---------/*/
+  .btn-box a {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100%;
+    background: #00abf0;
+    border: 2px solid #00abf0;
+    border-radius: 8px;
+    font-size: 19px;
+    color: #081b29;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    z-index: 1;
+    overflow: hidden;
+    transition: .5s;
+  }
+  
+  .btn-box a:nth-child(2) {
+    background: transparent;
+    color: #00abf0;
+  }
+  
+  /*/---------\
+         home-sci
+      *\---------/*/
+  .home-sci {
+    position: absolute;
+    bottom: -1710px;
+    width: 1900px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+    display: flex;
+  }
+  
+  .home-sci a {
+    background: transparent;
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 130px;
+    color: #0ae2ff;
+    text-decoration: none;
+    margin-right: 0px;
+  }
+  
+  .home-sci a:hover {
+    color: #ffffff;
+  }
+  
+  
+  /*/---------\
+         footer
+      *\---------/*/
+  .footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -0%;
+    background: rgb(58, 58, 58);
+  }
+  
+  .footer-content img {
+    width: 200px;
+    height: 150px;
+  }
+  
+  .footer-content span {
+    color: #0ae2ff;
+  }
+  
+  /* Add CSS styles for smooth scrolling */
+  html {
+    scroll-behavior: smooth;
+  }
