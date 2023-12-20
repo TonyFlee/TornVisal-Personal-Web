@@ -197,7 +197,144 @@
   .footer-content span {
     color: #fff;
   }
-  
+
+/* For PC screens */
+@media only screen and (min-width: 768px) {
+  /* Adjustments for PC screens */
+
+  /* Font size for PC screens */
+  body {
+    font-size: 16px;
+  }
+
+  /* Header styles for PC */
+  header {
+    padding: 35px 10%;
+  }
+
+  /* Navbar styles for PC */
+  .navbar a {
+    font-size: 20px;
+    margin: 25px;
+  }
+
+  /* Home section styles for PC */
+  .home h1 {
+    font-size: 40px;
+    padding: 0 10%;
+  }
+
+  .home h3 {
+    font-size: 80px;
+    padding: 0 10%;
+  }
+
+  .home h4 {
+    font-size: 40px;
+    padding: 0 10%;
+  }
+
+  /* About section styles for PC */
+  .about h1 {
+    font-size: 60px;
+    padding: 0 10%;
+  }
+
+  .about p {
+    font-size: 18px;
+    padding: 0 10%;
+    max-width: 1200px;
+  }
+
+  .about-content .btn-box {
+    width: 745px;
+    padding: 0 10%;
+  }
+
+  /* Social section styles for PC */
+  .social h1 {
+    font-size: 60px;
+    padding: 0 10%;
+  }
+
+  /* Footer styles for PC */
+  .footer-content {
+    margin-top: -0%;
+  }
+}
+
+/* For phone screens */
+@media only screen and (max-width: 767px) {
+  /* Adjustments for phone screens */
+
+  /* Font size for phone screens */
+  body {
+    font-size: 14px;
+  }
+
+  /* Header styles for phones */
+  header {
+    padding: 20px 5%;
+  }
+
+  .navbar a {
+    font-size: 16px;
+    margin: 15px;
+  }
+
+  /* Home section styles for phones */
+  .home h1 {
+    font-size: 30px;
+    padding: 0 5%;
+  }
+
+  .home h3 {
+    font-size: 60px;
+    padding: 0 5%;
+  }
+
+  .home h4 {
+    font-size: 30px;
+    padding: 0 5%;
+  }
+
+  /* About section styles for phones */
+  .about h1 {
+    font-size: 40px;
+    padding: 0 5%;
+  }
+
+  .about p {
+    font-size: 16px;
+    padding: 0 5%;
+    margin: 20px 0 40px;
+    max-width: 100%;
+  }
+
+  .about-content .btn-box {
+    width: 100%;
+    padding: 0 5%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .btn-box a {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  /* Social section styles for phones */
+  .social h1 {
+    font-size: 40px;
+    padding: 0 5%;
+  }
+
+  /* Footer styles for phones */
+  .footer-content {
+    margin-top: 10px;
+  }
+}
+
   /* Add CSS styles for smooth scrolling */
   html {
     scroll-behavior: smooth;
